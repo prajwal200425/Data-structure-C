@@ -30,12 +30,13 @@ for(int i=0;i<n;i++)
 printf("\nElement to be searched is -\%d " ,val);
  if (res-1)
  {
-        printf("\n\n\nElement is not present in the array");
+             printf("\n\n\nElement is present at %d position ", res);
  }
 
  else
  {
-        printf("\n\n\nElement is present at %d position ", res);
+
+        printf("\n\n\nElement is not present in the array");
  }
 return 0;
 }
